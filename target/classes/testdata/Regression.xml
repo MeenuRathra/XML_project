@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression" >
+<test name="addcustomerTest" >
+<parameter name="username" value="demo@techfios.com"/>
+<parameter  name= "password" value="abc123"/>
+<parameter name="expectedMessage" value="Dashboard" />
+<parameter name= "fullname" value="Tom"/>
+<parameter name= "email" value="nfjdn@gmail.com"/>
+<parameter name= "passwords" value="abc623"/>
+<parameter name= "city" value="frisco"/>
+<parameter name= "address" value="25658 risen trail"/>
+<parameter name= "group" value="Selenium"/>
+<parameter name= "company" value="Apple"/>
+<parameter name= "phone" value="4874687"/>
+
+
+<classes>
+
+<class name="test.loginTest" /> 
+<class name="test.addcustomerTest" /> 
+
+
+
+
+</classes>
+</test>
+</suite>

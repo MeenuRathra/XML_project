@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [smoke]">
+  <test thread-count="5" name="loginTest(failed)">
+    <parameter name="password" value="abc123"/>
+    <parameter name="address" value="25658 risen trail"/>
+    <parameter name="passwords" value="abc623"/>
+    <parameter name="city" value="frisco"/>
+    <parameter name="phone" value="4874687"/>
+    <parameter name="company" value="Apple"/>
+    <parameter name="fullname" value="Tom"/>
+    <parameter name="email" value="abc@123"/>
+    <parameter name="username" value="deno@techfios.com"/>
+    <parameter name="group" value="Selenium"/>
+    <classes>
+      <class name="test.addcustomerTest">
+        <methods>
+          <include name="login_Test"/>
+        </methods>
+      </class> <!-- test.addcustomerTest -->
+    </classes>
+  </test> <!-- loginTest(failed) -->
+</suite> <!-- Failed suite [smoke] -->
